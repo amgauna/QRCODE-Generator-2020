@@ -1,0 +1,23 @@
+<style>
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body { width: 80%;
+       height: 100vh;
+       margin: auto;
+       display: grid;
+       place-items: center;
+       }
+
+h1 { font-family: sans-serif; }
+
+input { padding: 10px;
+        border-radius: 20px;
+        border: 2px solid steelblue;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        outline: none;
+        }
+</style>
