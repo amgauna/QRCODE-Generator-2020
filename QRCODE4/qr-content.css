@@ -1,0 +1,37 @@
+margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+ 
+.main-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+ 
+.item-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #000;
+    padding: 5px;
+}
+ 
+label {
+    font-size: 25px;
+}
+ 
+#QR-content {
+    height: 25px;
+    margin-bottom: 20px;
+}
+ 
+#QR-generate {
+    padding: 4px 10px;
+}
+ 
+.textbox-container {
+    margin-bottom: 30px;
+}
