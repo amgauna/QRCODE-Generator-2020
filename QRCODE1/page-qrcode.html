@@ -1,10 +1,42 @@
 <html lang="en">
+  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QR Code Generator</title>
+  
+<script type="text/javascript">
+const qrcode = document.getElementById("qrcode");
+const textInput = document.getElementById("text");
+</script>
+  
+<style>
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body { width: 80%;
+       height: 100vh;
+       margin: auto;
+       display: grid;
+       place-items: center;
+       }
+
+h1 { font-family: sans-serif; }
+
+input { padding: 10px;
+        border-radius: 20px;
+        border: 2px solid steelblue;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        outline: none;
+        }
+</style>
+  
 </head>
+  
 <body>
   <h1>QR Code Generator</h1>
   <input 
