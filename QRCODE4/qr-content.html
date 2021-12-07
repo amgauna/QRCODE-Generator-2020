@@ -1,0 +1,36 @@
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+            rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+ 
+<body>
+    <div class="main-container">
+        <div class="item-container">
+            <div class="textbox-container">
+                <label for="QR-content">Enter Text:</label>
+                <input type="text" placeholder="Text for QR code" id="QR-content">
+                <br>
+ 
+                <input type="button" value="Generate QR Code" id="QR-generate">
+            </div>
+ 
+            <div class="qr-container">
+                <img src=
+"https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=300x300&chld=L|0"
+                    class="qr-code img-thumbnail img-responsive" />
+            </div>
+        </div>
+    </div>
+</body>
+ 
+</html>
