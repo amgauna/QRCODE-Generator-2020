@@ -1,37 +1,16 @@
-margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Potta One', cursive;
+
+function encodeQR(text_content) {
+    return $('<div/>').text(text_content)
+        .html();
 }
+
+$(function () {
+    $('#QR-generate').click(function () {
+        let QR_url =
+            'https://chart.googleapis.com/chart?cht=qr&chl='
+            + encodeQR($('#QR-content').val()) +
+            '&chs=300x300&chld=L|0'
  
-.main-container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
- 
-.item-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid #000;
-    padding: 5px;
-}
- 
-label {
-    font-size: 25px;
-}
- 
-#QR-content {
-    height: 25px;
-    margin-bottom: 20px;
-}
- 
-#QR-generate {
-    padding: 4px 10px;
-}
- 
-.textbox-container {
-    margin-bottom: 30px;
-}
+        $('.qr-code').attr('src', QR_url);
+    });
+});
