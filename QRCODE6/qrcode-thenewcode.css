@@ -1,0 +1,13 @@
+@media print { 
+	h1 {
+		margin-right: 200px;
+		margin-bottom: 2rem;
+		line-height: 1.2;
+	}
+	h1 a:after {
+		content: url(https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=http://thenewcode.com/613/Create-A-SilkScreen-Effect&choe=UTF-8);
+		position: absolute;
+		right: 0; top: 0;
+	}
+}
+		
