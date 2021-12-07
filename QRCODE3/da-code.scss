@@ -1,0 +1,284 @@
+@import "compass/css3";
+
+$qrcolor: #000;
+.da-code{
+  position:relative;
+  font-size:8px; /* change the size of this to see how ralph will scale up or down */
+  height: 1em;
+  width: 1em;
+  margin:0 34em 34em 0;
+  float:left;
+  box-shadow:
+    /* row 1 */
+    8em    0 $qrcolor,
+    10em    0 $qrcolor,
+    11em    0 $qrcolor,
+    12em    0 $qrcolor,
+    14em    0 $qrcolor,
+    16em    0 $qrcolor,
+    /* row 2 */
+    12em  1em $qrcolor,
+    13em  1em $qrcolor,
+    14em  1em $qrcolor,
+    16em  1em $qrcolor,
+    /* row 3 */
+    8em  2em $qrcolor,
+    9em  2em $qrcolor,
+    10em  2em $qrcolor,
+    13em  2em $qrcolor,
+    14em  2em $qrcolor,
+    16em  2em $qrcolor,
+    /* row 4 */
+    9em  3em $qrcolor,
+    13em  3em $qrcolor,
+    14em  3em $qrcolor,
+    16em  3em $qrcolor,
+    /* row 5 */
+    10em  4em $qrcolor,
+    11em  4em $qrcolor,
+    12em  4em $qrcolor,
+    13em  4em $qrcolor,
+    14em  4em $qrcolor,
+    /* row 6 */
+    8em   5em $qrcolor,
+    10em   5em $qrcolor,
+    12em   5em $qrcolor,
+    13em   5em $qrcolor,
+    16em   5em $qrcolor,
+    /* row 7 */
+    8em   6em $qrcolor,
+    10em   6em $qrcolor,
+    12em   6em $qrcolor,
+    14em   6em $qrcolor,
+    16em   6em $qrcolor,
+    /* row 8 */
+    9em  7em $qrcolor,
+    14em  7em $qrcolor,
+    16em  7em $qrcolor,
+    /* row 9 */
+    0em  8em $qrcolor,
+    2em  8em $qrcolor,
+    6em  8em $qrcolor,
+    7em  8em $qrcolor,
+    10em  8em $qrcolor,
+    12em  8em $qrcolor,
+    15em  8em $qrcolor,
+    16em  8em $qrcolor,
+    19em  8em $qrcolor,
+    22em  8em $qrcolor,
+    24em  8em $qrcolor,
+    /* row 10 */
+    0em  9em $qrcolor,
+    1em  9em $qrcolor,
+    3em  9em $qrcolor,
+    5em  9em $qrcolor,
+    8em  9em $qrcolor,
+    10em  9em $qrcolor,
+    12em  9em $qrcolor,
+    13em  9em $qrcolor,
+    15em  9em $qrcolor,
+    16em  9em $qrcolor,
+    18em  9em $qrcolor,
+    19em  9em $qrcolor,
+    21em  9em $qrcolor,
+    23em  9em $qrcolor,
+    24em  9em $qrcolor,
+    /* row 11 */
+    5em  10em $qrcolor,
+    6em  10em $qrcolor,
+    7em  10em $qrcolor,
+    10em  10em $qrcolor,
+    11em  10em $qrcolor,
+    15em  10em $qrcolor,
+    16em  10em $qrcolor,
+    18em  10em $qrcolor,
+    19em  10em $qrcolor,
+    20em  10em $qrcolor,
+    21em  10em $qrcolor,
+    22em  10em $qrcolor,
+    24em  10em $qrcolor,
+    /* row 12 */
+    0em  11em $qrcolor,
+    1em  11em $qrcolor,
+    2em  11em $qrcolor,
+    3em  11em $qrcolor,
+    4em  11em $qrcolor,
+    5em  11em $qrcolor,
+    8em  11em $qrcolor,
+    9em  11em $qrcolor,
+    12em  11em $qrcolor,
+    14em  11em $qrcolor,
+    16em  11em $qrcolor,
+    18em  11em $qrcolor,
+    19em  11em $qrcolor,
+    21em  11em $qrcolor,
+    /* row 13 */
+    3em  12em $qrcolor,
+    4em  12em $qrcolor,
+    6em  12em $qrcolor,
+    8em  12em $qrcolor,
+    9em  12em $qrcolor,
+    10em  12em $qrcolor,
+    11em  12em $qrcolor,
+    15em  12em $qrcolor,
+    16em  12em $qrcolor,
+    18em  12em $qrcolor,
+    24em  12em $qrcolor,
+    /* row 14 */
+    3em  13em $qrcolor,
+    9em  13em $qrcolor,
+    10em  13em $qrcolor,
+    13em  13em $qrcolor,
+    15em  13em $qrcolor,
+    16em  13em $qrcolor,
+    17em  13em $qrcolor,
+    18em  13em $qrcolor,
+    19em  13em $qrcolor,
+    23em  13em $qrcolor,
+    24em  13em $qrcolor,
+    /* row 15 */
+    0em  14em $qrcolor,
+    1em  14em $qrcolor,
+    2em  14em $qrcolor,
+    4em  14em $qrcolor,
+    6em  14em $qrcolor,
+    8em  14em $qrcolor,
+    9em  14em $qrcolor,
+    11em  14em $qrcolor,
+    13em  14em $qrcolor,
+    15em  14em $qrcolor,
+    17em  14em $qrcolor,
+    18em  14em $qrcolor,
+    21em  14em $qrcolor,
+    22em  14em $qrcolor,
+    24em  14em $qrcolor,
+    /* row 16 */
+    3em  15em $qrcolor,
+    5em  15em $qrcolor,
+    9em  15em $qrcolor,
+    14em  15em $qrcolor,
+    15em  15em $qrcolor,
+    16em  15em $qrcolor,
+    17em  15em $qrcolor,
+    19em  15em $qrcolor,
+    /* row 17 */
+    0em  16em $qrcolor,
+    1em  16em $qrcolor,
+    6em  16em $qrcolor,
+    9em  16em $qrcolor,
+    11em  16em $qrcolor,
+    12em  16em $qrcolor,
+    14em  16em $qrcolor,
+    16em  16em $qrcolor,
+    17em  16em $qrcolor,
+    18em  16em $qrcolor,
+    19em  16em $qrcolor,
+    20em  16em $qrcolor,
+    23em  16em $qrcolor,
+    /* row 18 */
+    8em  17em $qrcolor,
+    9em  17em $qrcolor,
+    10em  17em $qrcolor,
+    12em  17em $qrcolor,
+    13em  17em $qrcolor,
+    16em  17em $qrcolor,
+    20em  17em $qrcolor,
+    22em  17em $qrcolor,
+    24em  17em $qrcolor,
+    /* row 19 */
+    8em  18em $qrcolor,    
+    9em  18em $qrcolor,    
+    12em  18em $qrcolor,    
+    16em  18em $qrcolor,    
+    18em  18em $qrcolor,    
+    20em  18em $qrcolor,    
+    21em  18em $qrcolor,    
+    24em  18em $qrcolor,    
+    /* row 20 */
+    9em  19em $qrcolor,    
+    10em  19em $qrcolor,    
+    11em  19em $qrcolor,    
+    12em  19em $qrcolor,    
+    14em  19em $qrcolor,    
+    15em  19em $qrcolor,    
+    16em  19em $qrcolor,    
+    20em  19em $qrcolor,    
+    24em  19em $qrcolor,    
+    /* row 21 */
+    13em  20em $qrcolor,    
+    14em  20em $qrcolor,    
+    15em  20em $qrcolor,    
+    16em  20em $qrcolor,    
+    17em  20em $qrcolor,    
+    18em  20em $qrcolor,    
+    19em  20em $qrcolor,    
+    20em  20em $qrcolor,    
+    21em  20em $qrcolor,    
+    24em  20em $qrcolor,    
+    /* row 22 */
+    9em  21em $qrcolor,   
+    10em  21em $qrcolor,   
+    13em  21em $qrcolor,    
+    15em  21em $qrcolor,    
+    16em  21em $qrcolor,    
+    17em  21em $qrcolor,    
+    19em  21em $qrcolor,    
+    20em  21em $qrcolor,    
+    21em  21em $qrcolor,    
+    22em  21em $qrcolor,    
+    23em  21em $qrcolor,    
+    /* row 23 */
+    8em  22em $qrcolor,        
+    10em  22em $qrcolor,        
+    11em  22em $qrcolor,        
+    15em  22em $qrcolor,        
+    16em  22em $qrcolor,        
+    20em  22em $qrcolor,        
+    23em  22em $qrcolor,        
+    24em  22em $qrcolor,        
+    /* row 24 */
+    13em  23em $qrcolor,       
+    16em  23em $qrcolor,       
+    19em  23em $qrcolor,       
+    20em  23em $qrcolor,       
+    /* row 25 */
+    8em  24em $qrcolor,           
+    10em  24em $qrcolor,           
+    11em  24em $qrcolor,           
+    12em  24em $qrcolor,           
+    13em  24em $qrcolor,           
+    16em  24em $qrcolor,           
+    17em  24em $qrcolor,           
+    21em  24em $qrcolor,           
+    
+    24em  24em $qrcolor
+    ;
+}
+
+/* position markers */
+.da-code:before{
+  content: '';
+  width: 3em;
+  height: 3em;
+  background: $qrcolor;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 2em;
+  box-shadow: 0 0 0 1em white, 0 0 0 2em $qrcolor, 18em 0 0 $qrcolor, 18em 0 0 1em white, 18em 0 0 2em $qrcolor, 0 18em 0 $qrcolor, 0 18em 0 1em white, 0 18em 0 2em $qrcolor;
+}
+
+.follow-me {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  text-decoration: none;
+}
+
+#qr1{ font-size:1px;}
+#qr2{ font-size:2px;}
+#qr3{ font-size:3px;}
+#qr4{ font-size:4px;}
+#qr5{ font-size:5px;}
+#qr6{ font-size:6px;}
+#qr7{ font-size:7px;}
