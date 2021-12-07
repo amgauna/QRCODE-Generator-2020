@@ -1,3 +1,5 @@
+<script type="text/javascript">
+    
 const qrcode = document.getElementById("qrcode");
 const textInput = document.getElementById("text");
 
@@ -8,3 +10,4 @@ textInput.oninput = (e) => {
     qr.makeCode(e.target.value.trim());
 };
 
+</script>
